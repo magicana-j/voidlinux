@@ -1,2 +1,3 @@
 sudo xbps-install -Su
-sudo xbps-install xfce4 xfce4-plugins xfce4-screenshooter
+sudo xbps-install lightdm lightdm-gtk-greeter
+sudo xbps-install xfce4 xfce4-plugins gvfs xarchiver pavucontrol
