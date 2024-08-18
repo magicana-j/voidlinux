@@ -1,3 +1,8 @@
 sudo xbps-install -Su
 sudo xbps-install lightdm lightdm-gtk-greeter
-sudo xbps-install sway brightnessctl font-awesome dmenu foot grim pavucontrol slurp swaybg swayidle swaylock waybar xorg-xwayland thunar xrandr wofi
+sudo xbps-install brightnessctl pavucontrol
+sudo xbps-install dmenu wofi
+sudo xbps-install foot alacritty
+sudo xbps-install font-awesome grim slurp swaybg thunar xrandr arandr imagemagick
+sudo xbps-install sway swayidle swaylock waybar xorg-xwayland
+sudo xbps-install mako
