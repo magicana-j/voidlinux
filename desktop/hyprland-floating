@@ -1,0 +1,4 @@
+windowrulev2 = float, class:(steam)
+windowrulev2 = float, class:(virtualbox)
+windowrulev2 = float, class:(libvirt)
+windowrulev2 = float, title:(About)
