@@ -9,7 +9,7 @@ sudo xbps-install --force vim neovim neofetch fastfetch htop curl zip unzip gvfs
 sudo xbps-install --force noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji noto-fonts-ttf-extra 
 sudo xbps-install --force xprop fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-gtk fcitx5-gtk+ fcitx5-gtk+2 fcitx5-gtk+3
 sudo xbps-install --force xorg wayland xorg-server-xwayland
-sudo xbps-install --force shotwell firefox timeshift psensor
+sudo xbps-install --force shotwell firefox timeshift psensor shotcut vlc ssr
 
 sudo ln -svnf /etc/sv/dbus /var/service/
 sudo ln -svnf /etc/sv/elogind /var/service/
