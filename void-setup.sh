@@ -1,25 +1,17 @@
-#!/usr/bin/bash
+#!/bin/sh
 
 sudo xbps-install -Su
-sudo xbps-install dbus elogind
-sudo ln -svnf /etc/sv/dbus /var/service
-sudo ln -svnf /etc/sv/elogind /var/service
+sudo xbps-install --force dbus elogind
+sudo xbps-install --force NetworkManager network-manager-applet
+sudo xbps-install --force pipewire wireplumber pipewire-pulse pavucontrol bluez libspa-bluetooth
+sudo xbps-install --force mesa-dri libva-intel-driver mesa-intel-dri mesa-vulkan-intel ntfs-3g autofs
+sudo xbps-install --force vim neovim neofetch fastfetch htop curl zip unzip xarchiver p7zip
+sudo xbps-install --force noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji noto-fonts-ttf-extra 
+sudo xbps-install --force xprop fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-gtk fcitx5-gtk+ fcitx5-gtk+2 fcitx5-gtk+3
+sudo xbps-install --force xorg wayland xorg-server-xwayland
+sudo xbps-install --force shotwell firefox timeshift psensor
 
-sudo xbps-install NetworkManager network-manager-applet
-sudo ln -svnf /etc/sv/NetworkManager /var/service
-
-sudo xbps-install pulseaudio pavucontrol
-
-sudo xbps-install libva-intel-driver mesa-intel-dri mesa-vulkan-intel
-
-sudo xbps-install git vim neovim neofetch zip unzip xarchiver p7zip
-sudo xbpx-install ipafont-fonts-otf
-sudo xbps-install noto-fonts-emoji noto-fonts-ttf-extra font-firacode
-fc-cache -fv
-
-sudo xbps-install xorg xorg-fonts
-sudo xbps-install shotwell firefox timeshift psensor
-
-sudo xbps-install xprop fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-gtk fcitx5-gtk+ fcitx5-gtk+2 fcitx5-gtk+3
-
-sudo xbps-install vscode
+sudo ln -svnf /etc/sv/dbus /var/service/
+sudo ln -svnf /etc/sv/elogind /var/service/
+sudo ln -svnf /etc/sv/bluetoothd /var/service/
+sudo ln -svnf /etc/sv/NetworkManager /var/service/
