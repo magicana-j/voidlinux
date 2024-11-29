@@ -7,7 +7,6 @@ sudo xbps-install pipewire wireplumber pipewire-pulse pavucontrol bluez libspa-b
 sudo xbps-install mesa-dri libva-intel-driver mesa-intel-dri mesa-vulkan-intel ntfs-3g autofs x264 openh264
 sudo xbps-install vim neovim neofetch fastfetch htop curl zip unzip gvfs xarchiver p7zip
 sudo xbps-install noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji noto-fonts-ttf-extra 
-sudo xbps-install xprop fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-gtk fcitx5-gtk+ fcitx5-gtk+2 fcitx5-gtk+3
 sudo xbps-install xorg wayland xorg-server-xwayland
 sudo xbps-install shotwell firefox timeshift psensor shotcut vlc ssr
 
