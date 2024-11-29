@@ -17,3 +17,4 @@ sudo ln -svnf /etc/sv/NetworkManager /var/service/
 
 sudo mkdir -p /etc/pipewire/pipewire.conf.d
 sudo ln -svnf /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/
+sudo ln -svnf /usr/share/examples/pipewire/20-pipewire-pulse.conf /etc/pipewire/pipewire.conf.d/
