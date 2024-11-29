@@ -15,5 +15,5 @@ sudo ln -svnf /etc/sv/elogind /var/service/
 sudo ln -svnf /etc/sv/bluetoothd /var/service/
 sudo ln -svnf /etc/sv/NetworkManager /var/service/
 
-sudo mkdir /etc/pipewire/pipewire.conf.d
+sudo mkdir -p /etc/pipewire/pipewire.conf.d
 sudo ln -svnf /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/
