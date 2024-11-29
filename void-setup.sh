@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo xbps-install -Su
-sudo xbps-install --force dbus elogind
+sudo xbps-install --force dbus elogind polkit
 sudo xbps-install --force NetworkManager network-manager-applet
 sudo xbps-install --force pipewire wireplumber pipewire-pulse pavucontrol bluez libspa-bluetooth
 sudo xbps-install --force mesa-dri libva-intel-driver mesa-intel-dri mesa-vulkan-intel ntfs-3g autofs
