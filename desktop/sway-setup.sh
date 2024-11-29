@@ -4,7 +4,6 @@ sudo xbps-install -Su
 sudo xbps-install dmenu wofi
 sudo xbps-install foot alacritty
 sudo xbps-install font-awesome grim slurp swaybg
-#sudo xbps-install Thunar
+sudo xbps-install Thunar thunar-archive-plugin
 sudo xbps-install xrandr arandr ImageMagick autotiling
-sudo xbps-install sway swayidle swaylock Waybar xorg-server-xwayland xorg-server-xwayland-32bit
-#sudo xbps-install mako
+sudo xbps-install sway swayidle swaylock Waybar xorg-server-xwayland xorg-server-xwayland-32bit mako
