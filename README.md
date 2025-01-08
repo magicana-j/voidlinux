@@ -30,20 +30,28 @@ sudo xbps-install -Su
 - pulseaudio pavucontrol
 - nano neovim htop fastfetch neofetch git
 
-## KDE Plasma desktop
-
-- kde-plasma kde-baseapps spectacle
-
-## Xfce4 desktop
-
-- xfce4 xfce4-plugins thunar-archive-plugin gvfs lightdm lightdm-gtk-greeter
-
 ## Enable services
 
 ```
 ln -sv /etc/sv/dbus /etc/service/
 ln -sv /etc/sv/NetworkManager /etc/service/
+```
+
+## KDE Plasma desktop
+
+- kde-plasma kde-baseapps spectacle
+
+```
 ln -sv /etc/sv/sddm /etc/service/
+```
+
+## Xfce4 desktop
+
+- xfce4 xfce4-plugins thunar-archive-plugin gvfs lightdm lightdm-gtk-greeter
+
+```
+ln -sv /etc/sv/lightdm /etc/service/
+sudo rm /var/service/sddm
 ```
 
 ## Japanese fonts and ime
