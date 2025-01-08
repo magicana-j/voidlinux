@@ -5,6 +5,11 @@
 - rest  /  ext4
 
 ```
+root
+voidlinux
+```
+
+```
 setfont -d
 ```
 
