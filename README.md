@@ -4,6 +4,10 @@
 - 8GiB  swap
 - rest  /  ext4
 
+```
+setfont -d
+```
+
 ## Base
 
 - dbus elogind polkit
