@@ -34,6 +34,10 @@ sudo xbps-install -Su
 
 - kde-plasma kde-baseapps spectacle
 
+## Xfce4 desktop
+
+- xfce4 xfce4-plugins thunar-archive-plugin gvfs
+
 ## Enable services
 
 ```
