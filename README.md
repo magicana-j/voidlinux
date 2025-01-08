@@ -33,8 +33,8 @@ sudo xbps-install -Su
 ## Enable services
 
 ```
-ln -sv /etc/sv/dbus /etc/service/
-ln -sv /etc/sv/NetworkManager /etc/service/
+sudo ln -sv /etc/sv/dbus /etc/service/
+sudo ln -sv /etc/sv/NetworkManager /etc/service/
 ```
 
 ## KDE Plasma desktop
@@ -42,7 +42,7 @@ ln -sv /etc/sv/NetworkManager /etc/service/
 - kde-plasma kde-baseapps spectacle
 
 ```
-ln -sv /etc/sv/sddm /etc/service/
+sudo ln -sv /etc/sv/sddm /etc/service/
 ```
 
 ## Xfce4 desktop
@@ -50,7 +50,7 @@ ln -sv /etc/sv/sddm /etc/service/
 - xfce4 xfce4-plugins thunar-archive-plugin gvfs lightdm lightdm-gtk-greeter
 
 ```
-ln -sv /etc/sv/lightdm /etc/service/
+sudo ln -sv /etc/sv/lightdm /etc/service/
 sudo rm /var/service/sddm
 ```
 
