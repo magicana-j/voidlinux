@@ -36,7 +36,7 @@ sudo xbps-install -Su
 
 ## Xfce4 desktop
 
-- xfce4 xfce4-plugins thunar-archive-plugin gvfs
+- xfce4 xfce4-plugins thunar-archive-plugin gvfs lightdm lightdm-gtk-greeter
 
 ## Enable services
 
