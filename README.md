@@ -13,6 +13,11 @@ voidlinux
 setfont -d
 ```
 
+```
+void-installer
+```
+
+
 ## Base
 
 - dbus elogind polkit
