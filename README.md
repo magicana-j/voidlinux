@@ -54,6 +54,15 @@ sudo ln -sv /etc/sv/lightdm /etc/service/
 sudo rm /var/service/sddm
 ```
 
+## Cinnamon desktop
+
+- cinnamon-all nemo-fileroller gvfs lightdm lightdm-gtk-greeter
+
+```
+sudo ln -sv /etc/sv/lightdm /etc/service/
+sudo rm /var/service/sddm
+```
+
 ## Japanese fonts and ime
 
 - noto-fonts-cjk noto-fonts-ttf-extra noto-fonts-emoji
