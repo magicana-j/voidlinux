@@ -20,6 +20,10 @@ void-installer
 
 ## Base
 
+```
+sudo xbps-install -Su
+```
+
 - dbus elogind polkit
 - xorg mesa-dri
 - NetworkManager network-manager-applet
