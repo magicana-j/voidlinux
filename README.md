@@ -45,7 +45,7 @@ ln -sv /etc/sv/sddm /etc/service/
 $ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-```/etc/containers/registries.conf
+```text:/etc/containers/registries.conf
 [registries.search]
 registries = ["docker.io"]
 ```
