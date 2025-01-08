@@ -52,6 +52,7 @@ ln -sv /etc/sv/sddm /etc/service/
 
 - firefox
 - timeshift
+- gparted dosfstools
 - zip unzp p7zip xarchiver
 - shotwell
 - vlc
