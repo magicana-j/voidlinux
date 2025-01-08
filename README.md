@@ -44,7 +44,7 @@ ln -sv /etc/sv/sddm /etc/service/
 
 ## Japanese fonts and ime
 
-- noto-cjk-jp noto-fonts-ttf-extra noto-fonts-emoji
+- noto-fonts-cjk noto-fonts-ttf-extra noto-fonts-emoji
 - fcitx5 fcitx5-configtool fcitx5-mozc
 - fcitx5-gtk+2 fcitx5-gtk+3 fcitx5-qt5
 
