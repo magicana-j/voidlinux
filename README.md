@@ -47,7 +47,7 @@ sudo ln -sv /etc/sv/sddm /etc/service/
 
 ## Xfce4 desktop
 
-- xfce4 xfce4-plugins thunar-archive-plugin gvfs lightdm lightdm-gtk-greeter
+- xfce4 xfce4-plugins xfce4-pulseaudio-plugin thunar-archive-plugin gvfs lightdm lightdm-gtk-greeter
 
 ```
 sudo ln -sv /etc/sv/lightdm /etc/service/
