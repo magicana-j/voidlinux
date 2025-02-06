@@ -8,12 +8,12 @@ sudo xbps-install dbus elogind polkit
 sudo xbps-install NetworkManager network-manager-applet
 
 # Sound
-# sudo xbps-install pipewire wireplumber
-sudo xbps-install pulseaudio alsa-plugins-pulseaudio
+sudo xbps-install pipewire wireplumber
+#sudo xbps-install pulseaudio alsa-plugins-pulseaudio
 sudo xbps-install pavucontrol
 
 # Bluetooth
-sudo xbps-install bluez libspa-bluetooth
+sudo xbps-install bluez libspa-bluetooth blueman
 
 # Graphics Driver (intel)
 sudo xbps-install mesa-dri libva-intel-driver mesa-intel-dri mesa-vulkan-intel ntfs-3g autofs x264 openh264
@@ -36,6 +36,6 @@ sudo ln -svnf /etc/sv/dbus /var/service/
 sudo ln -svnf /etc/sv/bluetoothd /var/service/
 sudo ln -svnf /etc/sv/NetworkManager /var/service/
 
-#sudo mkdir -p /etc/pipewire/pipewire.conf.d
-#sudo ln -svnf /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/
-#sudo ln -svnf /usr/share/examples/pipewire/20-pipewire-pulse.conf /etc/pipewire/pipewire.conf.d/
+sudo mkdir -p /etc/pipewire/pipewire.conf.d
+sudo ln -svnf /usr/share/examples/wireplumber/10-wireplumber.conf /etc/pipewire/pipewire.conf.d/
+sudo ln -svnf /usr/share/examples/pipewire/20-pipewire-pulse.conf /etc/pipewire/pipewire.conf.d/
