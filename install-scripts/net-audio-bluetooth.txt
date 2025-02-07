@@ -1,0 +1,17 @@
+# Network
+NetworkManager
+network-manager-applet
+
+# Sound
+## Pipewire
+pipewire
+wireplumber
+## Pulseaudio
+pulseaudio
+alsa-plugins-pulseaudio
+pavucontrol
+
+# Bluetooth
+bluez
+libspa-bluetooth
+blueman
