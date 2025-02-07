@@ -3,3 +3,7 @@ rust
 cargo
 nodejs
 geany
+#gprolog
+#swi-prolog
+#sbcl
+#Gauche
