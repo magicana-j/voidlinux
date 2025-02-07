@@ -1,4 +1,12 @@
+nano
+vim
 neovim
-git
 curl
 htop
+neofetch
+fastfetch
+zip
+unzip
+gvfs
+xarchiver
+p7zip
