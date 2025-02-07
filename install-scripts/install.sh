@@ -29,7 +29,7 @@ while IFS= read -r pkg; do
         echo "[SKIP] $pkg is already installed."
     else
         echo "[INSTALL] Installing $pkg ..."
-        sudo xbps-install -y "$pkg"
+        sudo xbps-install -y "$pkg" 2>&1 | tee -a "$LOG"
     fi
 done < "$PKG_LIST"
 
