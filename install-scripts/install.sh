@@ -1,1 +1,29 @@
+#!/bin/sh
 
+# パッケージリストファイル
+PKG_LIST="packages.txt"
+
+# パッケージリストが存在しない場合はエラー
+if [ ! -f "$PKG_LIST" ]; then
+    echo "Error: $PKG_LIST が見つかりません。" >&2
+    exit 1
+fi
+
+# xbps のリポジトリを更新
+sudo xbps-install -Su
+
+# パッケージを1つずつインストール
+while IFS= read -r pkg; do
+    # 空行やコメント行をスキップ
+    [ -z "$pkg" ] || [ "${pkg#\#}" != "$pkg" ] && continue
+
+    # すでにインストール済みか確認
+    if xbps-query -R "$pkg" >/dev/null 2>&1; then
+        echo "[SKIP] $pkg is already installed."
+    else
+        echo "[INSTALL] Installing $pkg ..."
+        sudo xbps-install -y "$pkg"
+    fi
+done < "$PKG_LIST"
+
+echo "Installation process completed!"
