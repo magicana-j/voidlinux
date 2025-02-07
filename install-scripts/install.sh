@@ -12,7 +12,7 @@ PKG_LIST="packages.txt"
 
 # パッケージリストが存在しない場合はエラー
 if [ ! -f "$PKG_LIST" ]; then
-    echo "Error: $PKG_LIST が見つかりません。" >&2
+    echo "Error: $PKG_LIST not found." >&2
     exit 1
 fi
 
