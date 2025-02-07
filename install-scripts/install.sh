@@ -1,5 +1,12 @@
 #!/bin/sh
 
+# ログファイル格納ディレクトリ作成
+if [ ! -d Install-Logs ]; then
+    mkdir Install-Logs
+fi
+
+set -e
+
 # パッケージリストファイル
 PKG_LIST="packages.txt"
 
