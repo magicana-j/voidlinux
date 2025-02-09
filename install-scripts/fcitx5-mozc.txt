@@ -4,8 +4,9 @@ fcitx5-gtk+2
 fcitx5-gtk+3
 fcitx5-configtool
 fcitx5-mozc
-# Japanese Fonts
+# Fonts
 noto-fonts-ttf
 noto-fonts-cjk
 noto-fonts-emoji
 noto-fonts-ttf-extra 
+font-adobe-source-code-pro
