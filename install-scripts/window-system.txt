@@ -1,5 +1,0 @@
-xorg
-wayland
-xorg-server-xwayland
-openbox
-tint2
