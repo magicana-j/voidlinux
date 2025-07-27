@@ -1,7 +1,7 @@
 #!/bin/sh
 
 sudo xbps-install -Su
-sudo xbps-install labwc alacritty foot swaylock swaybg swayidle wofi fuzzel Thunar thunar-archive-plugin Waybar grim slurp mako dunst font-awesome font-fira-ttf
+sudo xbps-install labwc alacritty foot swaylock swaybg swayidle wofi fuzzel Thunar thunar-archive-plugin wlogout Waybar grim slurp mako dunst font-awesome font-fira-ttf
 
 #mkdir -p ~/.config/labwc
 #mkdir -p ~/.config/waybar
