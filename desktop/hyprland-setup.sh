@@ -1,5 +1,5 @@
 sudo xbps-install -Su
-sudo xbps-install lightdm lightdm-gtk-greeter
-sudo xbps-install alacritty feh font-awesome arandr xrandr grim slurp dolphin thunar cliphist
-sudo xbps-install swaylock swww mako xorg-desktop-portal-hyprland xorg-xwayland wofi
+#sudo xbps-install sddm
+sudo xbps-install alacritty foot feh font-awesome font-fira-ttf arandr xrandr grim slurp dolphin
+sudo xbps-install swaylock dunst mako xorg-desktop-portal-hyprland fuzzel wofi
 sudo xbps-install hyprland hyprpaper hypridle hyprlock hyprshot
