@@ -1,6 +1,6 @@
 #!/bin/sh
 sudo xbps-install -Sy xbps
-sudo xbps-install -Suy
+sudo xbps-install -Sy void-repo-nonfree void-repo-multilib void-repo-multilib-nonfree
 sudo xbps-install -y dbus elogind polkit
 
 # System
@@ -20,7 +20,7 @@ sudo xbps-install -y bluez libspa-bluetooth blueman
 sudo xbps-install -y mesa-dri libva-intel-driver mesa-intel-dri mesa-vulkan-intel ntfs-3g autofs x264 openh264
 
 # Desktop
-sudo xbps-instal -y kde-plasma kde-baseapps sddm
+sudo xbps-install -y kde-plasma kde-baseapps sddm
 
 # Tools
 sudo xbps-install -y nano vim neovim fastfetch htop curl wget zip unzip gvfs ntfs-3g fuse-exfat bash-completion gparted xarchiver p7zip
