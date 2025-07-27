@@ -20,7 +20,8 @@ sudo xbps-install -y bluez libspa-bluetooth blueman
 sudo xbps-install -y mesa-dri libva-intel-driver mesa-intel-dri mesa-vulkan-intel ntfs-3g autofs x264 openh264
 
 # Desktop
-sudo xbps-install -y kde-plasma kde-baseapps sddm
+#sudo xbps-install -y kde-plasma kde-baseapps sddm
+sudo xbps-install -y stow labwc hikari
 
 # Tools
 sudo xbps-install -y nano vim neovim fastfetch htop curl wget zip unzip gvfs ntfs-3g fuse-exfat bash-completion gparted xarchiver p7zip
@@ -36,7 +37,6 @@ sudo xbps-install -y openh264 ffmpeg shotwell firefox timeshift psensor shotcut 
 
 # Enable/disable services
 sudo ln -snv /etc/sv/dbus /var/service/
-sudo ln -snv /etc/sv/elogind /var/service/
 sudo ln -snv /etc/sv/bluetoothd /var/service/
 sudo ln -snv /etc/sv/NetworkManager /var/service/
 sudo ln -snv /etc/sv/sddm /var/service/
