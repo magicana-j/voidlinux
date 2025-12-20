@@ -17,7 +17,7 @@ sudo xbps-install -y pipewire wireplumber pavucontrol
 sudo xbps-install -y bluez libspa-bluetooth blueman
 
 # Graphics Driver (intel)
-sudo xbps-install -y mesa-dri libva-intel-driver mesa-intel-dri mesa-vulkan-intel ntfs-3g autofs x264 openh264
+sudo xbps-install -y mesa-dri libva-intel-driver mesa-intel-dri mesa-vulkan-intel autofs x264 openh264
 
 # Desktop
 #sudo xbps-install -y kde-plasma kde-baseapps sddm
