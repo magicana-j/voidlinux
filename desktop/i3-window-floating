@@ -1,4 +1,0 @@
-for_window [class="virtualbox"] floating enable
-for_window [class="libvirt"] floating enable
-for_window [class="steam"] floating enable
-for_window [window_role="About"] floating enable

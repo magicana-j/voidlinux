@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=PipeWire
+Exec=/usr/bin/pipewire
+Terminal=false
+X-GNOME-Autostart-Phase=Initialization

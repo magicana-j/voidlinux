@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=WirePlumber
+Exec=/usr/bin/wireplumber
+Terminal=false
+X-GNOME-Autostart-Phase=Initialization

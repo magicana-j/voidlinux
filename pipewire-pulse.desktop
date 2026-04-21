@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=PipeWire PulseAudio
+Exec=/usr/bin/pipewire-pulse
+Terminal=false
+X-GNOME-Autostart-Phase=Initialization
