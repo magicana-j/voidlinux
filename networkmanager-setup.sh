@@ -16,7 +16,7 @@ xbps-install -y iwd NetworkManager network-manager-applet
 mkdir -p /etc/NetworkManager
 cp -r ./NetworkManager/conf.d /etc/NetworkManager/
 
-rm -f /var/service/dhcpcd
+#rm -f /var/service/dhcpcd
 ln -sv /etc/sv/NetworkManager /var/service/
 sv start NetworkManager
 
