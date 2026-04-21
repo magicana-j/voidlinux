@@ -23,7 +23,7 @@ ln -sv /usr/share/alsa/alsa.conf.d/50-pipewire.conf /etc/alsa/conf.d/
 ln -sv /usr/share/alsa/alsa.conf.d/99-pipewire-default.conf /etc/alsa/conf.d/
 
 # Create global XDG autostart entries for XFCE to launch Pipewire on login
-mkdir -p /etc/xdg/autostart
-cp pipewire.desktop /etc/xdg/autostart
-cp wireplumber.desktop /etc/xdg/autostart
-cp pipewire-pulse.desktop /etc/xdg/autostart
+#mkdir -p /etc/xdg/autostart
+#cp pipewire.desktop /etc/xdg/autostart
+#cp wireplumber.desktop /etc/xdg/autostart
+#cp pipewire-pulse.desktop /etc/xdg/autostart
