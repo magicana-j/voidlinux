@@ -12,13 +12,13 @@ fi
 echo "Synchronizing repositories and updating the system..."
 xbps-install -Suu -y
 
-xbps-install -y iwd NetworkManager networkmanagerapplet
+xbps-install -y iwd NetworkManager network-manager-applet
 mkdir -p /etc/NetworkManager
 cp -r ./NetworkManager/conf.d /etc/NetworkManager/
 
-sv start NetworkManager
 rm -f /var/service/dhcpcd
 ln -sv /etc/sv/NetworkManager /var/service/
+sv start NetworkManager
 
 echo "========================================"
 echo "Installation complete."
