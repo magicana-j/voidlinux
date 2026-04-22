@@ -1,6 +1,6 @@
 #!/bin/sh
 xbps-query pulseaudio >/dev/null 2>&1 && xbps-remove -Ry pulseaudio
-xbps-query pipewire >/dev/null 2>&1 || xbps-install -y pipewire wireplumber pavucontrol libpulseaudio alsa-pipewire alsa-plugins-pulseaudio
+xbps-query pipewire >/dev/null 2>&1 || xbps-install -y pipewire wireplumber alsa-pipewire
 
 echo "Configuring Pipewire integration..."
 # Configure Pipewire session manager
