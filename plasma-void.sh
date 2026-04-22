@@ -32,7 +32,7 @@ echo "Installing Zsh..."
 xbps-install -y zsh
 
 echo "Installing Japanese fonts and Fcitx5-mozc..."
-xbps-install -y noto-fonts-cjk noto-fonts-ttf-extra fcitx5 fcitx5-gtk fcitx5-gtk+3 fcitx5-gtk4 fcitx5-qt5 fcitx5-qt65 fcitx5-qt65 fcitx5-qt65 fcitx5-qt65 fcitx5-qt6 fcitx5-configtool fcitx5-mozc
+xbps-install -y noto-fonts-cjk noto-fonts-ttf-extra fcitx5 fcitx5-gtk fcitx5-gtk+3 fcitx5-gtk4 fcitx5-qt5 fcitx5-qt6 fcitx5-configtool fcitx5-mozc
 
 echo "Enabling necessary system services..."
 # Void Linux uses runit; enabling services is done by symlinking to /var/service
