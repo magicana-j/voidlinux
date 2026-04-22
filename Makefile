@@ -1,4 +1,4 @@
-.PHONY: all repos tools xorg kde pulse pipewire fonts input network apps graphics multimedia office programming finish
+.PHONY: all repos tools xorg kde pulse pipewire fonts input network nm_remove apps graphics multimedia office programming finish
 
 all: repos tools xorg kde pulse fonts input network apps finish
 
@@ -28,6 +28,9 @@ input:
 
 network:
 	sh scripts/network.sh
+
+nm_remove:
+	sh scripts/nm_remove.sh
 
 apps:
 	sh scripts/apps.sh
