@@ -12,4 +12,4 @@ mkdir -p /etc/pipewire/pipewire.conf.d
 
 # Autostart pipewire
 mkdir -p ~/.config/autostart
-cp ../pipewire/pipewire.desktop ~/.config/autostart/
+[ ! -f ~/.config/autostart/pipewire.desktop ] || cp ../pipewire/pipewire.desktop ~/.config/autostart/
