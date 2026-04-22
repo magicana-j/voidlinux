@@ -1,4 +1,4 @@
-.PHONY: all repos tools xorg kde pulse pipewire fonts input network apps finish
+.PHONY: all repos tools xorg kde pulse pipewire fonts input network apps graphics multimedia office programming finish
 
 all: repos tools xorg kde pulse fonts input network apps finish
 
@@ -31,3 +31,18 @@ network:
 
 apps:
 	sh scripts/apps.sh
+
+graphics:
+	sh scripts/graphics.sh
+
+multimedia:
+	sh scripts/multimedia.sh
+
+office:
+	sh scripts/office.sh
+
+programming:
+	sh scripts/programming.sh
+
+finish:
+	sh scripts/finish.sh
